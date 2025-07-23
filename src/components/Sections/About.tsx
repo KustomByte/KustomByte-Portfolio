@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code2, Palette, Smartphone, Database, Brain, Rocket } from 'lucide-react';
+import { Code2, Palette, Smartphone } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Image from 'next/image';
 
