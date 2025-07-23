@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Link from 'next/link';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,16 +53,15 @@ export default function Header() {
             role="banner"
             aria-label="KustomByte - Accueil"
           >
-            <a
+            <Link
               href="/"
               aria-label="Accueil KustomByte"
-              rel="home"
               className="focus:outline-none focus:ring-2 focus:ring-primary rounded"
             >
               <span className="text-primary" aria-label="KustomByte logo" role="img">
                 KustomByte
               </span>
-            </a>
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation - Centered */}
