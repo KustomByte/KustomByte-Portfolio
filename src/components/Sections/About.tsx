@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Code2, Palette, Smartphone, Database, Brain, Rocket } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Image from 'next/image';
 
 const About = () => {
   const { t } = useLanguage();
@@ -78,10 +79,13 @@ const About = () => {
           >
             <div className="relative">
               <div className="w-80 h-80 rounded-full border border-white/10 center-content bg-black/10 backdrop-blur-lg">
-                <img 
+                <Image 
                   src="/kustombyte.png" 
                   alt="KustomByte Logo" 
+                  width={256}
+                  height={256}
                   className="w-64 h-64 object-cover rounded-full"
+                  priority
                 />
               </div>
               {/* Floating elements */}
