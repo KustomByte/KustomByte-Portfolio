@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github, Eye, X, Maximize2 } from 'lucide-react';
+import { ExternalLink, X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useState } from 'react';
 import Image from 'next/image';
