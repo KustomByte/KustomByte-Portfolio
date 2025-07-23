@@ -224,7 +224,8 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
   const [language, setLanguage] = useState<Language>('fr'); // Français par défaut
 
   const t = (key: string): string => {
-    return (translations[language] as any)[key] || key;
+    const dict = translations[language] as Record<string, string>;
+    return dict[key] || key;
   };
 
   return (
