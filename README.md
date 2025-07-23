@@ -19,10 +19,6 @@ Ce site présente mes compétences, mes projets récents et les services que je 
 - **Déploiement :** Vercel
 - **Outils :** ESLint, Prettier, Husky
 
-## 📸 Aperçu du site
-
-![Aperçu du portfolio](./public/preview.png)
-
 ## 📂 Structure du projet
 
 ```
@@ -36,7 +32,7 @@ src/
 
 ## 🌍 Démo en ligne
 
-[Voir le site en ligne](https://ton-portfolio.vercel.app)
+[Voir le site en ligne]([https://ton-portfolio.vercel.app](https://kustom-byte-portfolio.vercel.app))
 
 ## 📱 Me contacter
 
