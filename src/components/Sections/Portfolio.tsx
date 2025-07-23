@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Github, Eye, X, Maximize2 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useState } from 'react';
+import Image from 'next/image';
 
 const Portfolio = () => {
   const { t } = useLanguage();
@@ -89,22 +90,31 @@ const Portfolio = () => {
                 {/* Image par défaut */}
                 <div className="absolute inset-0 transition-opacity duration-500 group-hover:opacity-0">
                   {project.image === '/portfolio/interactive-menu.jpg' ? (
-                    <img 
+                    <Image 
                       src="/portfolio/interactive-menu.jpg" 
                       alt={project.title}
+                      width={600}
+                      height={400}
                       className="w-full h-full object-cover"
+                      priority
                     />
                   ) : project.image === '/portfolio/wedding-invitation.jpg' ? (
-                    <img 
+                    <Image 
                       src="/portfolio/wedding-invitation.jpg" 
                       alt={project.title}
+                      width={600}
+                      height={400}
                       className="w-full h-full object-cover"
+                      priority
                     />
                   ) : project.image === '/portfolio/pokemon-app.jpg' ? (
-                    <img 
+                    <Image 
                       src="/portfolio/pokemon-app.jpg" 
                       alt={project.title}
+                      width={600}
+                      height={400}
                       className="w-full h-full object-cover"
+                      priority
                     />
                   ) : (
                     <div className="w-full h-full bg-gradient-to-br from-primary/20 to-blue-500/20 center-content">
@@ -119,22 +129,31 @@ const Portfolio = () => {
                 {project.htmlCode && (
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     {project.id === 1 ? (
-                      <img 
+                      <Image 
                         src="/portfolio/interactive-menu.jpg" 
                         alt={`Aperçu de ${project.title}`}
+                        width={600}
+                        height={400}
                         className="w-full h-full object-cover"
+                        priority
                       />
                     ) : project.id === 2 ? (
-                      <img 
+                      <Image 
                         src="/portfolio/wedding-invitation.jpg" 
                         alt={`Aperçu de ${project.title}`}
+                        width={600}
+                        height={400}
                         className="w-full h-full object-cover"
+                        priority
                       />
                     ) : project.id === 3 ? (
-                      <img 
+                      <Image 
                         src="/portfolio/pokemon-app.jpg" 
                         alt={`Aperçu de ${project.title}`}
+                        width={600}
+                        height={400}
                         className="w-full h-full object-cover"
+                        priority
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-primary/30 to-purple-500/30 center-content">
