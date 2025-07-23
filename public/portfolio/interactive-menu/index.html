@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KustomByte - Create your personalized Italian restaurant menu. Choose from authentic appetizers, fresh pasta, and handcrafted desserts.">
+    <meta name="keywords" content="italian restaurant, menu builder, authentic cuisine, pasta, desserts, custom menu">
+    <meta name="author" content="KustomByte">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="KustomByte - Create Your Own Menu">
+    <meta property="og:description" content="Experience authentic Italian cuisine with our interactive menu builder">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KustomByte - Create Your Own Menu">
+    <meta name="twitter:description" content="Experience authentic Italian cuisine with our interactive menu builder">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <title>KustomByte - Create Your Own Menu | Authentic Italian Restaurant</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Hero Carousel Section -->
+    <section class="image-carousel" role="banner" aria-label="Featured dishes showcase">
+        <!-- Navigation Arrows -->
+        <button class="carousel-nav carousel-nav-prev" aria-label="Previous slide" tabindex="0">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+        </button>
+        <button class="carousel-nav carousel-nav-next" aria-label="Next slide" tabindex="0">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+        </button>
+
+        <div class="carousel-container" role="region" aria-live="polite" aria-label="Image carousel">
+            <div class="carousel-track">
+                <!-- First Slide -->
+                <article class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 3">
+                    <div class="slide-background">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" 
+                             alt="Authentic Italian cuisine with pasta and traditional ingredients" 
+                             loading="lazy"
+                             width="2074"
+                             height="500">
+                        <div class="slide-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="slide-content">
+                        <div class="slide-badge" aria-hidden="true">🍝</div>
+                        <h2>Authentic Italian Cuisine</h2>
+                        <p>Experience the flavors of Italy with our traditional recipes</p>
+                        <button class="slide-cta" type="button">Discover the menu</button>
+                    </div>
+                </article>
+                <!-- Second Slide -->
+                <article class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3">
+                    <div class="slide-background">
+                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2084&q=80" 
+                             alt="Fresh ingredients including vegetables and herbs for cooking" 
+                             loading="lazy"
+                             width="2084"
+                             height="500">
+                        <div class="slide-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="slide-content">
+                        <div class="slide-badge" aria-hidden="true">🌿</div>
+                        <h2>Fresh Ingredients</h2>
+                        <p>Locally sourced ingredients carefully selected for exceptional quality</p>
+                        <button class="slide-cta" type="button">Our suppliers</button>
+                    </div>
+                </article>
+                <!-- Third Slide -->
+                <article class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3">
+                    <div class="slide-background">
+                        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80" 
+                             alt="Artisanal desserts and sweet pastries" 
+                             loading="lazy"
+                             width="2064"
+                             height="500">
+                        <div class="slide-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="slide-content">
+                        <div class="slide-badge" aria-hidden="true">🍰</div>
+                        <h2>Sweet Endings</h2>
+                        <p>Indulge in our handcrafted desserts made with passion</p>
+                        <button class="slide-cta" type="button">View desserts</button>
+                    </div>
+                </article>
+                <!-- Copy of first slide for infinite effect -->
+                <article class="carousel-slide" role="group" aria-roledescription="slide" aria-hidden="true">
+                    <div class="slide-background">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" 
+                             alt="Authentic Italian cuisine with pasta and traditional ingredients" 
+                             loading="lazy"
+                             width="2074"
+                             height="500">
+                        <div class="slide-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="slide-content">
+                        <div class="slide-badge" aria-hidden="true">🍝</div>
+                        <h2>Authentic Italian Cuisine</h2>
+                        <p>Experience the flavors of Italy with our traditional recipes</p>
+                        <button class="slide-cta" type="button">Discover the menu</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <!-- Pagination Indicators -->
+        <nav class="carousel-indicators" role="tablist" aria-label="Carousel pagination">
+            <button class="indicator active" role="tab" aria-selected="true" aria-label="Go to slide 1" aria-controls="slide-1"></button>
+            <button class="indicator" role="tab" aria-selected="false" aria-label="Go to slide 2" aria-controls="slide-2"></button>
+            <button class="indicator" role="tab" aria-selected="false" aria-label="Go to slide 3" aria-controls="slide-3"></button>
+        </nav>
+
+        <!-- Progress bar -->
+        <div class="carousel-progress" aria-hidden="true">
+            <div class="carousel-progress-bar"></div>
+        </div>
+    </section>
+    
+    <header role="banner">
+        <h1>KustomByte</h1>
+        <p class="subtitle">Create Your Own Experience</p>
+    </header>
+    
+    <main id="main-content" role="main">
+        <section class="menu-section" id="appetizers">
+            <h3>Appetizers <span class="price-range">$8-12</span></h3>
+            <div class="items-container"></div>
+        </section>
+        
+        <section class="menu-section" id="pasta">
+            <h3>Pasta <span class="price-range">$14-18</span></h3>
+            <div class="items-container"></div>
+            
+            <div class="add-ons">
+                <h4>Protein Add-ons</h4>
+                <div class="add-ons-container"></div>
+            </div>
+        </section>
+        
+        <section class="menu-section" id="desserts">
+            <h3>Desserts <span class="price-range">$6-9</span></h3>
+            <div class="items-container"></div>
+        </section>
+        
+        <section id="order-summary">
+            <h3>Your Selection</h3>
+            <div id="selected-items"></div>
+            <div id="total-price">Total: $0.00</div>
+        </section>
+    </main>
+    
+    <script src="js/menu-data.js"></script>
+    <script src="js/menu-builder.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/app.js"></script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "KustomByte",
+        "description": "Authentic Italian restaurant with interactive menu builder",
+        "cuisineType": "Italian",
+        "servesCuisine": "Italian",
+        "url": "https://yourwebsite.com",
+        "menu": {
+            "@type": "Menu",
+            "hasMenuSection": [
+                {
+                    "@type": "MenuSection",
+                    "name": "Appetizers",
+                    "description": "Traditional Italian starters"
+                },
+                {
+                    "@type": "MenuSection", 
+                    "name": "Pasta",
+                    "description": "Fresh homemade pasta dishes"
+                },
+                {
+                    "@type": "MenuSection",
+                    "name": "Desserts", 
+                    "description": "Handcrafted Italian desserts"
+                }
+            ]
+        },
+        "priceRange": "$8-18",
+        "acceptsReservations": true
+    }
+    </script>
+</body>
+</html>

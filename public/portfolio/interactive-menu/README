@@ -1,0 +1,71 @@
+KustomByte - Interactive Menu
+
+Description
+
+KustomByte is a web application that allows users to browse through an Italian restaurant menu and customize their order interactively. The elegant interface is designed to showcase traditional Italian dishes with high-quality images and smooth animations.
+
+Features
+-Image Carousel: Automatic rotation showcasing featured dishes
+-Intuitive Interface: Easy navigation between different meal categories
+-Interactive Selection: Add dishes to your basket and modify quantities
+-Dish Customization: Add protein options to pasta dishes
+-Favorites Management: Mark and find your favorite dishes
+-Image Gallery: View enlarged versions of dishes
+-Automatic Calculation: Real-time order total updates
+
+Project Structure
+
+bella-cucina-menu/
+│
+├── index.html                # Main page
+├── assets/
+│   ├── fonts/               # Custom fonts
+│   └── images/              # Dish and carousel images
+│       └── EXAMPLE-IMAGE.png
+├── css/
+│   └── style.css            # Application styles
+└── js/
+    ├── app.js               # Application initialization
+    ├── carousel.js          # Carousel logic
+    ├── menu-builder.js      # Interactive menu construction
+    └── menu-data.js         # Dish and menu data
+
+
+
+Technical Specifications
+    
+    Menu Image Format:
+        -Recommended width: 400-600px
+        -Ratio: 16:10 (rectangular)
+        -Format: JPEG (for food photos)
+
+    Carousel Image Format:
+        -Recommended width: 1200px
+        -Recommended height: 350px
+        -Format: JPEG or PNG
+
+Interface Features
+
+    Main Menu
+        -Appetizers: Multiple selection with quantity control
+        -Pasta: Single selection with protein add-on options
+        -Desserts: Multiple selection with quantity control
+
+    Interactive Elements
+        -Quantity buttons (+/-)
+        -Favorite buttons (❤)
+        -Large format preview of dishes (modal)
+        -Real-time order summary display
+
+Customization
+
+The menu can be easily modified by adjusting the data in the menu-data.js file. To add a new dish, simply follow the existing format and make sure to include a corresponding image in the images folder.
+
+Optimization and Compatibility
+
+-Responsive interface adapted for mobile and tablet devices
+-Optimized animations for smooth performance
+-Local storage of favorites for a personalized experience
+-Compatible with all modern browsers
+
+© 2023 KustomByte

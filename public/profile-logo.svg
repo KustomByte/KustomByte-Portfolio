@@ -1,0 +1,33 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Geometric wireframe sphere -->
+  <g stroke="#00ff88" stroke-width="1" fill="none" opacity="0.6">
+    <!-- Horizontal circles -->
+    <ellipse cx="250" cy="250" rx="150" ry="150"/>
+    <ellipse cx="250" cy="250" rx="120" ry="120"/>
+    <ellipse cx="250" cy="250" rx="90" ry="90"/>
+    
+    <!-- Vertical meridians -->
+    <ellipse cx="250" cy="250" rx="150" ry="150" transform="rotate(30 250 250)"/>
+    <ellipse cx="250" cy="250" rx="150" ry="150" transform="rotate(60 250 250)"/>
+    <ellipse cx="250" cy="250" rx="150" ry="150" transform="rotate(90 250 250)"/>
+    <ellipse cx="250" cy="250" rx="150" ry="150" transform="rotate(120 250 250)"/>
+    <ellipse cx="250" cy="250" rx="150" ry="150" transform="rotate(150 250 250)"/>
+    
+    <!-- Triangular network pattern -->
+    <polygon points="250,100 350,200 250,300 150,200"/>
+    <polygon points="250,200 320,150 320,250 250,300"/>
+    <polygon points="250,200 180,150 180,250 250,300"/>
+    <polygon points="250,200 300,280 200,280"/>
+    <polygon points="250,200 280,120 220,120"/>
+    
+    <!-- Additional geometric lines -->
+    <line x1="100" y1="250" x2="400" y2="250"/>
+    <line x1="250" y1="100" x2="250" y2="400"/>
+    <line x1="177" y1="177" x2="323" y2="323"/>
+    <line x1="323" y1="177" x2="177" y2="323"/>
+  </g>
+  
+  <!-- Central brand text -->
+  <text x="250" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="32" font-weight="bold" fill="#2d3748">KUSTOMBYTE</text>
+  <text x="250" y="350" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="normal" fill="#718096">TONI</text>
+</svg>
