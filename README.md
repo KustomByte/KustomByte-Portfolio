@@ -41,8 +41,6 @@ src/
 ## 📱 Me contacter
 
 - [Comeup](https://comeup.com/fr/@kustombyte)
-- [LinkedIn](https://www.linkedin.com/in/toniprofil)
-- [Email](mailto:ton.email@email.com)
 
 ## 📝 Installation locale
 
